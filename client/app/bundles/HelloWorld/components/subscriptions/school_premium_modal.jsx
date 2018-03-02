@@ -20,7 +20,7 @@ export default class extends React.Component {
           <img className="pull-right react-bootstrap-close" onClick={this.props.hideModal} src={`${process.env.CDN_URL}/images/shared/close_x.svg`} alt="close-modal" />
           <div className="pricing-info text-center">
             <div className="current-year">
-              <h1 style="text-align:center;">Quill <span >S</span>chool Premium</h1>
+              <h1>Quill School Premium</h1>
               <span>$900 for one-year subscription</span>
             </div>
             <span>Next Year's Rate is $1800</span>
